@@ -16,7 +16,7 @@ class _apiGetCallState extends State<apiGetCall> {
   void fetchPosts()async{
     try{
       final response = await get(
-      Uri.parse('https://discord.com/api/v9/channels/1027584170463068213/messages?limit=50'),
+      Uri.parse(''),
       headers: {
         HttpHeaders.authorizationHeader: '',
       }

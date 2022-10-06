@@ -17,7 +17,7 @@ class _apiPostCallState extends State<apiPostCall> {
   
     Future<http.Response> doPost() {
     return http.post(
-      Uri.parse('https://discord.com/api/v9/channels/1027584170463068213/messages'),
+      Uri.parse(''),
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
         HttpHeaders.authorizationHeader: '',
