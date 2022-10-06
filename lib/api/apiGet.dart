@@ -18,7 +18,7 @@ class _apiGetCallState extends State<apiGetCall> {
       final response = await get(
       Uri.parse(''),
       headers: {
-        HttpHeaders.authorizationHeader: '',
+        HttpHeaders.authorizationHeader: 'e',
       }
   );
       
