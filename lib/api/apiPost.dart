@@ -20,7 +20,7 @@ class _apiPostCallState extends State<apiPostCall> {
       Uri.parse('https://discord.com/api/v9/channels/1027584170463068213/messages'),
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
-        HttpHeaders.authorizationHeader: 'NzkyNTA0NDc2MzE3Mzg0Nzg0.GGa_8a.cK0-Ky26WkV5Y2jGC7fjmOqGD3Z7LfgbxEZXHQ',
+        HttpHeaders.authorizationHeader: '',
       },
       body: jsonEncode(<String, String>{
         "content": result,
